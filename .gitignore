@@ -1,0 +1,76 @@
+# Ambiente Python
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de ambiente
+.env
+.venv
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Logs
+*.log
+logs/
+log/
+
+# Banco de dados
+*.db
+*.sqlite3
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependências
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.pytest_cache/
+
+# Cobertura de testes
+.coverage
+htmlcov/
+.tox/
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+
+# Secrets
+*secret*
+*secrets*
+*.pem
+*.key
+*.crt
+
+# Adicionar exceção para arquivo de exemplo de secrets
+!k8s/*secrets.yaml.example
+
+# Volumes Docker
+mysql-data/
+postgres-data/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

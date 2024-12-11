@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram id="projeto-flask-microservices-professional" name="Projeto Flask Microservices Professional Architecture">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F5F5" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Flask Microservices Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="1000" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend" value="Frontend" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="backend-services" value="Backend Services" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_2;" parent="1" vertex="1">
+          <mxGeometry x="320" y="200" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="database" value="Database" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mysql_instance;" parent="1" vertex="1">
+          <mxGeometry x="600" y="200" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="cache" value="Caching" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.elasticache;" parent="1" vertex="1">
+          <mxGeometry x="840" y="200" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="docker-containers" value="Docker" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=img/lib/mscae/Docker.svg;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiMyMzZCQjYiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzguNTMgMjIuNjVjLS4zNy0uMjEtLjc0LS40LTEuMTEtLjU4Yy0uMDktLjA1LS4xOS0uMDktLjI4LS4xM2MtLjM3LS4xNy0uNzQtLjMzLTEuMTItLjQ3Yy0uMTEtLjA0LS4yMi0uMDgtLjMzLS4xMmMtLjM3LS4xMy0uNzQtLjI0LTEuMTItLjM0Yy0uMTItLjAzLS4yMy0uMDYtLjM1LS4wOWMtLjM4LS4wOS0uNzYtLjE2LTEuMTQtLjIyYy0uMTItLjAyLS4yNC0uMDQtLjM2LS4wNmMtLjQ1LS4wNi0uOS0uMS0xLjM2LS4xMWgtMTguNnY1LjU4aDEwLjI4djUuNThoNS41OGMuNjQgMCAxLjI2LS4wNiAxLjg4LS4xNmMuMjctLjA2LjU0LS4xMi44Mi0uMTljLjM3LS4wOC43Mi0uMTkgMS4wNy0uM2MuMjYtLjA5LjUxLS4xOS43Ni0uM2MuMzctLjE1LjcyLS4zMyAxLjA3LS41MmMuMjMtLjEzLjQ2LS4yNS43LS40Yy4zNC0uMjEuNjctLjQzIDEtLjY3Yy45NC0uNzIgMS43NS0xLjYgMi40LTIuNjNjLjY1LTEuMDIgMS4xNC0yLjE2IDEuNDMtMy4zNWMxLjQtLjM0IDIuNDYtMS41OCAyLjQ2LTMuMDRjMC0xLjc0LTEuNDEtMy4xNS0zLjE1LTMuMTVzLTMuMTUgMS40MS0zLjE1IDMuMTVjMCAuNDYuMTEuODkuMjkgMS4yOGwtNC4zNiAyLjg2di00LjA0aC01LjU4djUuNThoLTEwLjI4djUuNThoMTAuMjh2LTUuNThoLTEwLjI4di01LjhoMTAuMjh2LTUuNThoLTEwLjI4di01LjhoMTAuMjh6Ii8+PC9zdmc+;sketch=0;html=1;points=[];" parent="1" vertex="1">
+          <mxGeometry x="480" y="380" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kubernetes" value="Kubernetes" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.eks;" parent="1" vertex="1">
+          <mxGeometry x="480" y="540" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend-to-backend" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="frontend" target="backend-services" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backend-to-database" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="backend-services" target="database" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="backend-to-cache" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="backend-services" target="cache" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="services-to-docker" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="backend-services" target="docker-containers" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="docker-to-kubernetes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="docker-containers" target="kubernetes" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend-note" value="React/Next.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="backend-note" value="Flask/Python" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="300" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="database-note" value="MySQL/PostgreSQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="580" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cache-note" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="820" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="docker-note" value="Containerization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="460" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kubernetes-note" value="Cluster Orchestration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="460" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
